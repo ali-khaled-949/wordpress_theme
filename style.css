@@ -1,0 +1,93 @@
+/*
+Theme Name: OC iTech Services
+Theme URI: http://ocitechservices.com
+Author: Your Name
+Author URI: http://ocitechservices.com
+Description: Custom WordPress theme for OC iTech Services, providing IT and web services in Orange County.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: oc-itech-services
+*/
+
+/* Theme Colors */
+:root {
+    --primary-color: #ff7f00; /* Orange */
+    --secondary-color: #ffffff; /* White */
+    --accent-color: #0047ab; /* Blue */
+}
+
+body {
+    background-color: var(--secondary-color);
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: var(--accent-color);
+}
+
+/* Header Styles */
+.site-header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 20px 0;
+}
+
+.main-navigation {
+    text-align: center;
+}
+
+.main-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-navigation li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.main-navigation a {
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Footer Styles */
+.site-footer {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Custom Button Styles */
+.button,
+button,
+input[type="submit"] {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover {
+    background-color: var(--accent-color);
+}
